@@ -1,0 +1,23 @@
+Promises Lecture
+
+A / Synchronous Calls
+
+Calls take time, you have to wait for a response
+
+// Pseudo code
+var results = ajax.make-a-call;
+results.each do something
+
+Promise Object - a placeholder for data you're waiting to receive, commonly used
+
+
+Deferred Ojbect -  placeholder for result of evaluation
+
+Make a call, move on, get a response, Execute the "success"
+
+Promise States - 
+pending - unfulfilled, waiting
+fulfilled - resolved- sucess
+
+rejected - failed, error, (eg 404)
+
